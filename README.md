@@ -1,12 +1,10 @@
-- 👋 Hi, I’m @jayanthkuchipudi
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
+def factorial(n):
+    """Calculate the factorial of a number using recursion."""
+    if n == 0:
+        return 1
+    else:
+        return n * factorial(n - 1)
 
-<!---
-jayanthkuchipudi/jayanthkuchipudi is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+# Test the factorial function
+num = 90
+print(f"The factorial of {num} is {factorial(num)}")
